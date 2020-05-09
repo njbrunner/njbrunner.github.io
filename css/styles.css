@@ -43,6 +43,32 @@ main {
 	text-align: center;
 }
 
+main.dark-mode {
+	background: #485564;
+	color: #FAFAFA;
+}
+
+main.dark-mode .icons-social a {
+	color: #FAFAFA;
+}
+
+main.dark-mode .icons-social a svg path{
+	fill: #FAFAFA;
+}
+
+main.light-mode {
+	background: #EDEDED;
+	color: #4B5658;
+}
+
+main.light-mode .icons-social a {
+	color: #4B5658;
+}
+
+main.light-mode .icons-social a svg path{
+	fill: #4B5658;
+}
+
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
